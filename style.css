@@ -8,16 +8,24 @@ body{
     
 }
 #Navbar{
+    box-shadow: 7px 10px 10px black;
     border: 2px solid black;
      padding-bottom: 21.8px;
      display: flex;
      justify-content: space-between;
-     background-image: url(https://tse4.mm.bing.net/th?id=OIP.uH56cyoVkivA7rWfohdvAgHaCh&pid=Api&P=0&h=180);
+
      background-repeat: no-repeat; 
      background-size: cover;
 }
+#button{
+    display: flex;
+    justify-content: space-between;
+
+
+}
 
 #intro{
+    box-shadow: 7px 10px 10px black;
     border: 2px solid black;
     display: flex;
     justify-content:space-between;
@@ -39,7 +47,8 @@ ul{
 
 }
 .item{
-    background-color: aquamarine;
+    box-shadow: 7px 10px 10px black;
+    background-color:white;
     padding:10px;
     text-align: center;
 }
@@ -51,7 +60,12 @@ ul{
 
 }
 .skill{
-    background-color:aqua;
+    box-shadow: 7px 10px 10px black;
+    background-color:white;
     padding:10px;
     text-align: center;
+}
+#about{
+    margin-top: 20px;
+    border:2px solid black ;
 }
