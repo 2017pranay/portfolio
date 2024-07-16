@@ -1,0 +1,57 @@
+body{
+    height: 100px;
+    padding: 0px;
+    background-color: #fcfafa;
+    border: 2px solid black;
+    background-size: 100%;
+    background-image: "downloa.jfif";
+    
+}
+#Navbar{
+    border: 2px solid black;
+     padding-bottom: 21.8px;
+     display: flex;
+     justify-content: space-between;
+     background-image: url(https://tse4.mm.bing.net/th?id=OIP.uH56cyoVkivA7rWfohdvAgHaCh&pid=Api&P=0&h=180);
+     background-repeat: no-repeat; 
+     background-size: cover;
+}
+
+#intro{
+    border: 2px solid black;
+    display: flex;
+    justify-content:space-between;
+    width: 98vw;
+}
+#skill{
+    border: 2px solid black;
+    
+}
+ul{
+    display:flex;
+    justify-content: space-between;
+    
+}
+.grid-container{
+    display: grid;    
+    grid-template-columns: auto auto;
+    grid-gap:10px;
+
+}
+.item{
+    background-color: aquamarine;
+    padding:10px;
+    text-align: center;
+}
+.grid-container{
+    display: grid; 
+    grid-row: auto auto auto;   
+    grid-template-columns: auto auto auto;
+    grid-gap:10px;
+
+}
+.skill{
+    background-color:aqua;
+    padding:10px;
+    text-align: center;
+}
