@@ -105,6 +105,9 @@ ul{
 #footer{
     margin-top: 20px;
     border:2px solid black ;
+    display:flex;
+    justify-content: space-between;
+    
 }
     
 
@@ -114,7 +117,7 @@ ul{
 }
 #contact{
     display: flex; 
-    justify-content: left;
+   
 }
 #footicon{
     display: flex; 
